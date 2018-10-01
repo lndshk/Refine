@@ -122,5 +122,6 @@ for(i in 1:length(product_names)) {
 #########################################################################
 # Write output to CSV
 
-write.csv(Refine_tb, file="refine_clean.csv", sep=",")
+write.csv(Refine_tb, file="refine_clean.csv")
+
 
